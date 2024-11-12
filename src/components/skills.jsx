@@ -1,6 +1,6 @@
 import React from "react";
 import { FaUsers, FaChalkboardTeacher, FaRegClock, FaLightbulb, FaArrowRight, FaCog } from "react-icons/fa";
-import SkillCard from "./skillscard";
+import SkillCard from "./skills-components/skillscard";
 
 const Skills = () => {
   const hardSkills = [
