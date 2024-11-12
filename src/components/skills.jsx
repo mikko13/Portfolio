@@ -18,6 +18,7 @@ const Skills = () => {
   ];
 
   return (
+    <section id="skills">
     <div className="container mx-auto px-8 py-8 flex flex-col lg:flex-row">
       <div className="w-full lg:w-[50%] pr-4 mb-8 lg:mb-0">
         <h2 className="text-center text-2xl font-bold mb-6 text-[#1c3c4d]">Hard Skills</h2>
@@ -81,6 +82,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 
