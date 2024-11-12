@@ -22,7 +22,7 @@ const Home = () => {
                                 strings={["3rd Year IT Student"]}
                                 typeSpeed={40}
                                 backSpeed={50}
-                                startDelay={2000}
+                                startDelay={1000}
                                 showCursor={false}
                             />
                         </span>
