@@ -10,7 +10,7 @@ const About = () => {
                         I am a dedicated Information Technology student from the University of Santo Tomas with a strong 
                         passion for software development, particularly in web and mobile platforms. My skills 
                         encompass web development using HTML, CSS, JavaScript, PHP, AngularJS, 
-                        ASP.NET MVC, React, Tailwind CSS, and Materialize CSS. Additionally, I have 
+                        ASP.NET MVC, ReactJS, Tailwind CSS, and Materialize CSS. Additionally, I have 
                         experience in mobile development with Kotlin and Java, as well as C# for 
                         various programming tasks. 
                     </div>
