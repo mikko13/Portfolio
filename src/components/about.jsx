@@ -7,12 +7,12 @@ const About = () => {
                 <div className='mb-4 lg:mb-0'>
                     <div className='text-white font-bold text-3xl sm:text-4xl lg:text-5xl mb-2'>About Me</div>
                     <div className='text-white text-justify'>
-                        I am a dedicated Information Technology student from the University of Santo Tomas with a strong 
-                        passion for software development, particularly in web and mobile platforms. My skills 
-                        encompass web development using HTML, CSS, JavaScript, PHP, AngularJS, 
-                        ASP.NET MVC, ReactJS, Tailwind CSS, and Materialize CSS. Additionally, I have 
-                        experience in mobile development with Kotlin and Java, as well as C# for 
-                        various programming tasks. 
+                    I am a dedicated Information Technology student at the University of Santo Tomas with a strong 
+                    passion for software development, particularly in web and mobile platforms. My web development 
+                    skills include HTML, CSS, JavaScript, PHP, AngularJS, ReactJS, Tailwind CSS, and Materialize 
+                    CSS. For mobile development, I have experience with Kotlin and Java. Additionally, I am 
+                    proficient in C# for various programming tasks and ASP.NET MVC for building dynamic web 
+                    applications.
                     </div>
                 </div>
 
