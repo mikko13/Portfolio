@@ -4,18 +4,18 @@ import SkillCard from "./skills-components/skillscard";
 
 const Skills = () => {
   const hardSkills = [
-    { title: "HTML", progress: 100, imageUrl: "/images/skills-images/html.svg" },
-    { title: "CSS", progress: 100, imageUrl: "/images/skills-images/css.svg" },
-    { title: "JavaScript", progress: 85, imageUrl: "/images/skills-images/javascript.svg" },
-    { title: "PHP", progress: 90, imageUrl: "/images/skills-images/php.svg" },
-    { title: "AngularJS", progress: 60, imageUrl: "/images/skills-images/angular.svg" },
-    { title: "ReactJS", progress: 60, imageUrl: "/images/skills-images/react.svg" },
-    { title: "TailwindCSS", progress: 100, imageUrl: "/images/skills-images/tailwind.png" },
-    { title: "MaterializeCSS", progress: 100, imageUrl: "/images/skills-images/materialize.webp" },
-    { title: "Java", progress: 43, imageUrl: "/images/skills-images/java.svg" },
-    { title: "Kotlin", progress: 67, imageUrl: "/images/skills-images/kotlin.svg" },
-    { title: "C#", progress: 31, imageUrl: "/images/skills-images/csharp.svg" },
-    { title: "MySQL", progress: 95, imageUrl: "/images/skills-images/mysql.svg" },
+    { title: "HTML", progress: 100, imageUrl: `${process.env.PUBLIC_URL}/images/skills-images/html.svg` },
+    { title: "CSS", progress: 100, imageUrl: `${process.env.PUBLIC_URL}/images/skills-images/css.svg` },
+    { title: "JavaScript", progress: 85, imageUrl: `${process.env.PUBLIC_URL}/images/skills-images/javascript.svg` },
+    { title: "PHP", progress: 90, imageUrl: `${process.env.PUBLIC_URL}/images/skills-images/php.svg` },
+    { title: "AngularJS", progress: 60, imageUrl: `${process.env.PUBLIC_URL}/images/skills-images/angular.svg` },
+    { title: "ReactJS", progress: 60, imageUrl: `${process.env.PUBLIC_URL}/images/skills-images/react.svg` },
+    { title: "TailwindCSS", progress: 100, imageUrl: `${process.env.PUBLIC_URL}/images/skills-images/tailwind.png` },
+    { title: "MaterializeCSS", progress: 100, imageUrl: `${process.env.PUBLIC_URL}/images/skills-images/materialize.webp` },
+    { title: "Java", progress: 43, imageUrl: `${process.env.PUBLIC_URL}/images/skills-images/java.svg` },
+    { title: "Kotlin", progress: 67, imageUrl: `${process.env.PUBLIC_URL}/images/skills-images/kotlin.svg` },
+    { title: "C#", progress: 31, imageUrl: `${process.env.PUBLIC_URL}/images/skills-images/csharp.svg` },
+    { title: "MySQL", progress: 95, imageUrl: `${process.env.PUBLIC_URL}/images/skills-images/mysql.svg` },    
   ];
 
   const softSkills = [
