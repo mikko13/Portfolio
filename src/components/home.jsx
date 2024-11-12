@@ -2,13 +2,13 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div className="flex flex-col items-center justify-center mt-16 mx-4 md:mx-8">
-            <section className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-48 w-full">
-                <div className="intro-text mt-[-50px] text-center md:text-left flex flex-col items-center md:items-start">
-                    <h1 className="text-4xl md:text-6xl font-bold text-[#1C3C4D]">
+        <div className="flex flex-col items-center justify-center mt-14 px-4 md:px-12">
+            <section className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 lg:gap-24">
+                <div className="intro-text mt-0 md:mt-[-50px] text-center md:text-left flex flex-col items-center md:items-start">
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#1C3C4D]">
                         Hi, <br />I'm Mikko!
                     </h1>
-                    <h2 className="text-xl md:text-2xl italic text-[#1C3C4D] mb-4">
+                    <h2 className="text-lg md:text-xl lg:text-2xl italic text-[#1C3C4D] mb-4">
                         3rd Year IT Student
                     </h2>
                     <div className="flex justify-center md:justify-start w-full">
@@ -42,8 +42,8 @@ const Home = () => {
                 </div>
                 <img
                     src="images/Mikko.png"
-                    alt="Your Image"
-                    className="w-[300px] md:w-[500px] h-auto object-cover select-none mt-8 md:mt-0"
+                    alt="Mikko"
+                    className="w-[250px] md:w-[350px] lg:w-[480px] h-auto object-cover select-none"
                     draggable="false"
                     onContextMenu={(e) => e.preventDefault()}
                 />
