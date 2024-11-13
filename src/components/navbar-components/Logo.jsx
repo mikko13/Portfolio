@@ -5,7 +5,7 @@ const Logo = () => {
     <li>
       <a href="#home">
         <img
-          src="images/logo.png"
+          src={`${process.env.PUBLIC_URL}/images/logo.png`}
           alt="Logo"
           className="h-12"
           draggable="false"

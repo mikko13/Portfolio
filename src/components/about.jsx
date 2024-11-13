@@ -12,14 +12,14 @@ const About = () => {
                 <TextBlock />
                 <div className="flex flex-col space-y-5 w-full lg:w-auto lg:ml-10">
                     <Card
-                        imgSrc="images/img_ust.png"
+                        imgSrc={`${process.env.PUBLIC_URL}/images/img_ust.png`}
                         imgAlt="Logo"
                         title="University of Santo Tomas"
                         subtitle="BS Information Technology major in Web and Mobile Development"
                         link="https://www.ust.edu.ph"
                     />
                     <Card
-                        imgSrc="images/img_sanbeda.png"
+                        imgSrc={`${process.env.PUBLIC_URL}/images/img_sanbeda.png`}
                         imgAlt="Logo"
                         title="San Beda University"
                         subtitle="Senior High School - Science, Technology, Engineering, and Mathematics"
