@@ -3,8 +3,8 @@ import React from 'react';
 const TextBlock = () => {
     return (
         <div className="mb-4 lg:mb-0">
-            <div className="text-white font-bold text-3xl sm:text-4xl lg:text-5xl mb-2">About Me</div>
-            <div className="text-white text-justify">
+            <div className="text-white font-bold text-2xl sm:text-3xl lg:text-5xl mb-2">About Me</div>
+            <div className="text-white text-justify text-sm sm:text-base lg:text-lg">
                 I am an Information Technology student at the University of Santo Tomas with a strong passion for 
                 software development. With a solid foundation in programming languages, frameworks, and 
                 problem-solving techniques, I am constantly working to hone my skills in both front-end and 
