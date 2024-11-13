@@ -2,7 +2,7 @@ import React from "react";
 
 const SkillsCard = ({ icon, title, progress, imageUrl }) => {
   return (
-    <div className="group text-white bg-[#284f62] bg-[-webkit-radial-gradient(circle,_#284f62_0%,_#1c3c4d_100%)] bg-[radial-gradient(circle,_#284f62_0%,_#1c3c4d_100%)] shadow-lg rounded-lg p-3 flex flex-row items-center text-sm hover:bg-gradient-to-r from-[#ff7f50] to-[#ff6347] hover:scale-[1.025] transition-all cursor-pointer">
+    <div className="group text-white bg-[#284f62] bg-[-webkit-radial-gradient(circle,_#284f62_0%,_#1c3c4d_100%)] bg-[radial-gradient(circle,_#284f62_0%,_#1c3c4d_100%)] shadow-lg rounded-lg p-3 flex flex-row items-center text-sm hover:bg-gradient-to-r from-[#ff7f50] to-[#ff6347] hover:scale-[1.025] transform duration-300 ease-in-out cursor-pointer">
       {imageUrl ? (
         <div className="w-12 h-12 flex items-center justify-center bg-white rounded-md mr-3">
           <img src={imageUrl} alt={title} className="w-10 h-auto object-cover" />
