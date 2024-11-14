@@ -1,8 +1,17 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 import { FaUsers, FaChalkboardTeacher, FaRegClock, FaLightbulb, FaArrowRight, FaCog } from "react-icons/fa";
 import SkillCard from "./skills-components/skillscard";
+import Arrow from "./other-components/arrow";
+import './skills-components/SkillsUI.css';
+
 
 const Skills = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });  
+  
   const hardSkills = [
     { title: "HTML", progress: 100, imageUrl: `${process.env.PUBLIC_URL}/images/skills-images/html.svg` },
     { title: "CSS", progress: 100, imageUrl: `${process.env.PUBLIC_URL}/images/skills-images/css.svg` },
@@ -28,7 +37,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills">
+    <section id="skills" ref={ref} className={`fade-in-skills ${inView ? 'visible' : ''}`}>
       <div className="container mx-auto px-8 py-8 flex flex-col lg:flex-row">
         <div className="w-full lg:w-[50%] pr-4 mb-8 lg:mb-0">
           <h2 className="text-center text-2xl font-bold mb-6 text-[#1c3c4d]">Hard Skills</h2>
@@ -53,6 +62,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
+      <Arrow startAnimation={inView} />
     </section>
   );
 };

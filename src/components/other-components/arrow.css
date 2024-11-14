@@ -1,0 +1,33 @@
+.graph__wrapper .path, #arrow {
+  opacity: 0;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  transition: opacity 0.3s ease-in, stroke-dashoffset 2s linear;
+}
+
+.graph__wrapper.start-animation .path, 
+.graph__wrapper.start-animation #arrow {
+  opacity: 1;
+  stroke-dashoffset: 0;
+  
+}
+
+.dashed {
+  stroke-dasharray: 5, 12;
+}
+
+#arrow {
+  animation: arrow 2s linear forwards;
+}
+
+@keyframes arrow {
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 662px) {
+  .graph__wrapper{
+    margin-left: -350px !important;
+  }
+}
